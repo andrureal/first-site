@@ -1,17 +1,29 @@
-h1,h3 {
-    text-align: center;
-}
-.bg {
+.nav {
     border: 2px solid black;
-}
-.box {
-    width: 600px;
-    height: 300px;
-    border: 2px solid black;
-}
-.wrap {
+    height: 70px;
+    background-color: orange;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    border: 1px solid black;
+    padding: 12px;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    background-color: green;
+}
+.article {
+    background-color: blueviolet;
+    width: 400px;
+    height: 250px;
+}
+#game {
+    background-color: crimson;
 }
