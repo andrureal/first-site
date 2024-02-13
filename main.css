@@ -1,29 +1,17 @@
+/*
+Блок, відповідаючий за навігацію
+
+
+*/
 .nav {
+    width: 500px;
+    height: 250px;
     border: 2px solid black;
-    height: 70px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    background-color: blueviolet;
 }
 
-a {
-    border: 1px solid black;
+button {
     padding: 12px;
-    background-color: blue;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-a:hover {
-    background-color: green;
-}
-.article {
-    background-color: blueviolet;
-    width: 400px;
-    height: 250px;
-}
-#game {
-    background-color: crimson;
+    background-color: orange;
+    border-radius: 10px;
 }
